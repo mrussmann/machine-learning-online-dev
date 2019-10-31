@@ -6,11 +6,10 @@ ports:
 - port: 6080
   onOpen: open-preview
 tasks:
-#- command: open /workspace/coursera-machine-learning-dev/machine-learning-ex1/ex1.pdf && exit
-- name: octave-cli
-  command: cd /workspace/coursera-machine-learning-dev/machine-learning-ex1/ex1 && octave
 - name: octave-gui
-  command: cd /workspace/coursera-machine-learning-dev/machine-learning-ex1/ex1 && octave --force-gui
+  command: cd /workspace/coursera-machine-learning-dev && octave --force-gui
+- name: octave-cli
+  command: cd /workspace/coursera-machine-learning-dev && octave
 
 vscode:
   extensions:
