@@ -14,4 +14,8 @@ Just click to start:
 
 https://gitpod.io/#/https://github.com/mrussmann/coursera-machine-learning-dev
 
+or (short)
+
+https://cutt.ly/machine-learning-online-dev
+
 ![Screenshot](./screenshot.png "Screenshot")
