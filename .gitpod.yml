@@ -5,16 +5,13 @@ ports:
 - port: 5900
   onOpen: ignore
 - port: 6080
-  onOpen: open-browser
+  onOpen: open-preview
 tasks:
-- name: install
-  command: pipenv install --dev &&
-    pipenv shell
-- command: open /workspace/flask-admin-starter/upload/machine-learning-ex1/ex1.pdf && exit
+- command: open /workspace/machine-learning-ex1/ex1.pdf && exit
 - name: octave-cli
-  command: cd /workspace/flask-admin-starter/upload/machine-learning-ex1/ex1 && octave
+  command: cd /workspace/machine-learning-ex1/ex1 && octave
 - name: octave-gui
-  command: cd /workspace/flask-admin-starter/upload/machine-learning-ex1/ex1 && octave --force-gui
+  command: cd /workspace/machine-learning-ex1/ex1 && octave --force-gui
 
 vscode:
   extensions:
