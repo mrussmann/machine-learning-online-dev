@@ -1,4 +1,4 @@
-# Coursera - Machine Learning - Online Development Environment
+# Machine Learning - Online Development Environment
 
 This project provides one-click development environment for the Stanfort Machine Learning Course on Coursera.
 No local setup is nedded, a browser and a Github account is sufficient. You can start working on the excercises in a minute.
