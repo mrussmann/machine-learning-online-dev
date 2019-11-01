@@ -7,9 +7,9 @@ ports:
   onOpen: open-preview
 tasks:
 - name: octave-gui
-  command: cd /workspace/coursera-machine-learning-dev && octave --force-gui
+  command: cd /workspace/machine-learning-dev && octave --force-gui
 - name: octave-cli
-  command: cd /workspace/coursera-machine-learning-dev && octave
+  command: cd /workspace/machine-learning-dev && octave
 
 vscode:
   extensions:
